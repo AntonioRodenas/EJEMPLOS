@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset = "utf-8">
+		<title>Ejemplo de Acceso al DOM y Eventos</title>
+        <script type="text/javascript" src="app.js"></script>
+        <!-- <link type="text/css" href="estilos.css"> -->
+	</head>
+
+<h1> Mis noticias</h1>
+
+	<body>
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="PAGINA1.HTML" target="_blank">Contacto</a></li>
+                <li><a href="#">Localización</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <section>
+
+            <dl>
+                <dt>HTML 4.0</dt>
+                <dd>
+                    lenguaje  bla bla dlkasjgoiasjgijgoaijgoiaj
+                </dd>
+                
+                <dt>HTML 5.0</dt>
+                <dd>
+                    Lenguaje tal tal dfladjflsk
+                </dd>
+
+                
+            </dl>
+
+            <ul> <!-- Lista de Puntos -->
+                <li>Huevos</li>
+                <li>Azúcar</li>
+                <li>Harina</li>
+                <li>Limón</li>
+            </ul>
+
+            <ol> <!-- Lista Numerada -->
+                <li>Huevos</li>
+                    <ul>
+                        <li>Corral</li>
+                        <li>Granja</li>
+                    </ul>
+                <li>Azúcar</li>
+                    <ul>
+                        <li>Blanco</li>
+                        <li>Moreno</li>
+                    </ul>
+                <li>Harina</li>
+                <li>Limón</li>
+            </ol>
+
+            <article>
+                <header>
+                    <h2> Noticia 1</h2>
+                </header>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorem, dicta sit dignissimos quam vero, assumenda iusto autem architecto quas aperiam? Neque voluptatem odit necessitatibus a culpa ut accusamus iure, dicta dolorum nisi dolores accusantium ducimus repellendus porro saepe quibusdam nulla dolor omnis fugit incidunt? Dolorum nemo aperiam soluta debitis. Illum velit nihil, architecto officia quas quod harum odio? Obcaecati commodi nulla veniam sed error nam ipsa sit labore, quas esse dolore expedita eligendi. Facere assumenda, itaque quis minima dolorum ducimus! Deserunt inventore, repudiandae recusandae cum culpa earum reiciendis dolorum dicta placeat libero, odit aspernatur tempore ad iure aliquam porro.</p>
+                <footer>
+                    <p>Publicado por Pepe <time datatime='2022-06-07' pubdate>El 7 de Junio de 2022</time> por Pepe</p>
+                </footer>
+            </article>
+            <span class="estilo_css">En Inglés hola se escribe <span lang="en">hello</span> </span>
+            <pre>Este texto si muestra
+                los saltos de linea      y los     espacios en blanco
+            </pre>
+            <article>
+                <header>
+                    <h2> Noticia 2</h2>
+                </header>
+                <blockquote cite="http://www.google.com"> <!-- tabulación-->
+                    <p>Como <cite>Shakespeare</cite> sabiamente dijo, <q>no todo lo que brilla es oro</q></p>
+                </blockquote>
+                
+                <div contenteditable="true">
+                    Este contenido es editable. Pulsa aquí para editarlo
+                </div>
+                <p>Como <cite>Shakespeare<!-- Cursiva --></cite> sabiamente dijo, <q><!-- entre comillas -->no todo lo que brilla es oro</q></p>
+
+                <p>Lorem <em>enfatizar<!-- Cursiva --></em>ipsum dolor sit amet consectetur, adipisicing elit. A quam dolorem quaerat temporibus eius nisi debitis dolor dignissimos nemo? Et nam magnam reprehenderit architecto praesentium beatae pariatur possimus aperiam unde?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate ab voluptatem repudiandae veritatis dignissimos fugiat, quidem a. Magnam repellat et suscipit eaque reprehenderit ad debitis ullam magni voluptatem quis.</p>
+            </article>
+
+            <aside>
+                <h4>Enlaces relacionados</h4>
+                <p>X<sup>2</sup></p><p>X<sub>2</sub></p>
+                <strong>Negrita con strong</strong><br>
+                <b>negrita con b</b>
+                <nav>
+                    <ul>
+                        <li><a href='#'>Noticia 1</a></li>
+                        <li><a href='#'>Noticia 2</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+		
+	</body>
+</html>
